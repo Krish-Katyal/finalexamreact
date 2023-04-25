@@ -14,7 +14,7 @@ app.use(cors());
 
 app.use(express.json());
 
-const bookRouter = require('./routes/books');
+const bookRouter = require('./src/routes/books');
 
 app.use(bookRouter);
 
